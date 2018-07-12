@@ -6,12 +6,22 @@
 
 运行环境JAVA
 请下载安装
+64位系统
 https://pan.baidu.com/s/1v4nLWfxkBP6wMaEN63YyIQ
+32位系统
+https://pan.baidu.com/s/1PQu9xOX1yroHEHiH9ZKzmg
  
 将登录账户等填入下面对应位置
 
-&lt;loginName>登录的账户</loginName&gt;<BR>
-&lt;password>登录密码</password&gt;<BR>
-&lt;tkloginName>退款账户</tkloginName&gt;<BR>
-&lt;tkpassword>退款密码</tkpassword&gt;<BR>
+#收款账号
+pay.user="15313653526"
+#收款密码
+pay.pwd="123456abcd"
+#退款账号
+pay.tkuser="15313653526"
+#退款密码
+pay.tkpwd="123456abcd"
+
+#设置服务器ip地址
+yturl="http://192.168.1.173:8088/Soap/ytpay.asmx"
 
